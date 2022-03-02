@@ -43,9 +43,9 @@ public class Program {
 					System.out.println("Opção Inválida!");
 				break;
 			}
-			System.out.println("\nGostaria de fazer uma nova consulta? CPF 1 / 2 CNPJ / 0 Sair ");
+			System.out.println("\nGostaria de fazer uma nova consulta?\nCPF 1 / 2 CNPJ / 0 Sair ");
 			op = ler.nextInt();
-		} while (op != 0);
+		} while (op != 0);''
 		ler.close();
 	}
 
